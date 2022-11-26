@@ -1,12 +1,10 @@
-import {useEffect} from 'react';
 import {Link, useParams} from 'react-router-dom';
 
 import {useQuery} from '@apollo/client';
-import { getFeaturedArticles, getSimilarArticles } from '../hooks/getQueries'
 
 import moment from 'moment'
 
-import { GET_FEATURED_ARTICLES, GET_SIMILAR_ARTICLES } from '../queries';
+import { GET_SIMILAR_ARTICLES } from '../queries';
 import { Post } from '../types'
 
 type Props = {

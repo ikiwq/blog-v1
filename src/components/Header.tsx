@@ -1,5 +1,5 @@
-import React, {useState, useEffect} from 'react'
-import {gql, useQuery} from '@apollo/client'
+import {useState} from 'react'
+import {useQuery} from '@apollo/client'
 
 import { Link } from "react-router-dom";
 
