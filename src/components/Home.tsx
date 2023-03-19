@@ -11,6 +11,7 @@ const Home = (props: Props) => {
 
     let {data : newEvArticles, loading: artEvLoading}  = useQuery(GET_FEATURED_ARTICLES);
     let evArticles = newEvArticles?.posts || [];
+    console.log(articles);
 
     if(artEvLoading || artLoading){
       return(

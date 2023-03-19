@@ -2,7 +2,7 @@ import {gql} from "@apollo/client"
 
 export const GET_ARTICLES = gql`
     query MyQuery {
-      postsConnection(where: {featuredPost: false}, orderBy: createdAt_DESC) {
+      postsConnection(where: {featuredPost: false}, orderBy: createdAt_DESC, last: 5) {
         edges {
           node {
             id
@@ -63,8 +63,8 @@ query GetPostDetails($slug: String!, $categories: [String!]){
 
 export const GET_CATEGORY_ARTICLES = gql`
 query GetCategoryPost($slug: String!) {
-  postsConnection(where: {categories_some: {slug: $slug}}) {
-    edges {
+  postsConnection(where: {categories_some: {slug: $slug}}, orderBy: createdAt_DESC) {
+    edges{
       cursor
       node {
         id
@@ -98,7 +98,7 @@ query GetCategoryPost($slug: String!) {
 export const GET_FEATURED_ARTICLES = gql`
     query GetPostDetails{
       posts(where: {featuredPost: true} orderBy: createdAt_DESC
-        last: 3){
+        last: 5){
           title
           id
           featureImage{
