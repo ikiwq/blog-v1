@@ -4,7 +4,7 @@ A simple React Blog with GraphQL and Tailwind CSS
 ## Description
 
 This project is a simple blog website created using React, GraphQL, and Tailwind CSS. It provides a platform for users to read my posts. 
-This project communicates with a GraphQL API to retrieve posts. The project
+This project communicates with a GraphQL API to retrieve posts.
 
 ## Installation
     Clone the repository
