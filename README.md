@@ -40,11 +40,14 @@ Clone the repository with:
     
 To install all the necessary packages run
 
-        npm install 
-        
+    npm install 
+     
+### Configuration
+Inside the .env file, modify the VITE_API_GRAPH_URI.
+### Run
 To start the development server run 
 
-        npm start 
+    npm start 
 
 Navigate to the homepage of the blog at http://localhost:5173
     
