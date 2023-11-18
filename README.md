@@ -36,7 +36,7 @@ This project communicates with a GraphQL API to retrieve posts.
 ### Clone the repository
 Clone the repository with:
 
-    git clone https://github.com/ikiwq/new-annex-frontend/
+    git clone https://github.com/ikiwq/ikiwq-blog-v1
     
 To install all the necessary packages run
 
