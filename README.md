@@ -1,7 +1,7 @@
 # The Ikiwq Blog
 
-A simple React Blog with GraphQL and Tailwind CSS
-## Introduction
+First iteration of my blog website
+### Introduction
 
 This project is a simple blog website created using React, GraphQL, and Tailwind CSS. It provides a platform for users to read my posts. 
 This project communicates with a GraphQL API to retrieve posts.
@@ -9,31 +9,25 @@ This project communicates with a GraphQL API to retrieve posts.
 #### Built with
 [![My Skills](https://skillicons.dev/icons?i=react,apollo,graphql,vite&theme=light)](https://skillicons.dev)
 
-### Screenshots
+#### Screenshots
+<p>
+  <picture>
+    <source srcset="https://i.imgur.com/K7ZMH97.png">
+    <img alt="Homepage." width="400">
+  </picture>
 
-#### Homepage
+  <picture>
+    <source srcset="https://i.imgur.com/K7ZMH97.png">
+    <img alt="Profile Page." width="400">
+  </picture>
 
-<picture>
-  <source srcset="https://i.imgur.com/K7ZMH97.png">
-  <img alt="Homepage.">
-</picture>
-
-#### Category Page
-
-<picture>
-  <source srcset="https://i.imgur.com/K7ZMH97.png">
-  <img alt="Profile Page.">
-</picture>
-
-#### Article Page
-
-<picture>
-  <source srcset="https://i.imgur.com/4R0yPcv.png">
-  <img alt="Profile Page.">
-</picture>
+  <picture>
+    <source srcset="https://i.imgur.com/4R0yPcv.png">
+    <img alt="Profile Page." width="400">
+  </picture>
+</p>
 
 ## Installation
-### Clone the repository
 Clone the repository with:
 
     git clone https://github.com/ikiwq/ikiwq-blog-v1
